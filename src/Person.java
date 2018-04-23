@@ -2,12 +2,12 @@ public class Person {
 
     private String name;
     private String destination;
-    private Boolean ticket;
+    private String ticket;
 
-    public Person(String name, String destination, Boolean ticket) {
+    public Person(String name, String destination, String ticket) {
         this.name = name;
         this.destination = destination;
-        this.ticket = true;
+        this.ticket = ticket;
 
     }
 
@@ -15,5 +15,5 @@ public class Person {
         return this.name;
     }
     public String getDestination(){return this.destination;}
-    public Boolean getTicket(){return this.ticket;}
+    public String getTicket(){return this.ticket;}
 }
